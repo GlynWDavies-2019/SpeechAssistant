@@ -1,6 +1,20 @@
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Variables */
+
+:root {
+    --color-black: #000000;
+    --color-black-chocolate: #191308;
+    --color-champagne: #F5E2C8;
+    --color-illuminating-emerald: #53917E;
+    --color-red-crayola: #FE5F55;
+    --color-silver: #C1C1C1;
+    --color-usafa-blue: #0353A4;
+    --color-white: #FFFFFF;
+    --font-primary: 'Roboto', sans-serif;
+}
 
 /* Reset */
 
@@ -11,11 +25,9 @@
 /* Application Styles */
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: -0.25px;
+    font-family: var(--font-primary);
 }
 
 textarea {
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: -0.25px;
+    font-family: var(--font-primary);
 }
