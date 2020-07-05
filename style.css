@@ -1,0 +1,21 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Reset */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Application Styles */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.25px;
+}
+
+textarea {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.25px;
+}
